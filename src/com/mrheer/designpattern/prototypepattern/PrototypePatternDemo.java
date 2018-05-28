@@ -1,7 +1,7 @@
 package com.mrheer.designpattern.prototypepattern;
 
 public class PrototypePatternDemo {
-    public static void main(String[] args) throws CloneNotSupportedException {
+    public static void main(String[] args) {
         ShapeCache.loadCache();
 
         Shape clonedShape = ShapeCache.getShape("1");
