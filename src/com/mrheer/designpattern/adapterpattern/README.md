@@ -178,7 +178,7 @@ public class AdapterPatternDemo {
 }
 ```
 
-###### **步骤 5**
+###### **步骤 6**
 
 验证输出。
 
@@ -187,5 +187,4 @@ Playing mp3 file. Name: beyond the horizon.mp3
 Playing mp4 file. Name: alone.mp4
 Playing vlc file. Name: far far away.vlc
 Invalid media. avi format not supported
-
 ```
