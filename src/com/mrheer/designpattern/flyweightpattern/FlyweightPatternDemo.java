@@ -1,7 +1,7 @@
 package com.mrheer.designpattern.flyweightpattern;
 
 public class FlyweightPatternDemo {
-    private static final String colors[] =
+    private static final String[] colors =
             {"Red", "Green", "Blue", "White", "Black"};
 
     public static void main(String[] args) {
