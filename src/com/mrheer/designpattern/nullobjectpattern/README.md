@@ -90,7 +90,6 @@ public class NullCustomer extends AbstractCustomer {
       return true;
    }
 }
-
 ```
 
 ###### **步骤 3**
