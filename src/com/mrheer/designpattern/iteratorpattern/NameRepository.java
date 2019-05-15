@@ -1,7 +1,7 @@
 package com.mrheer.designpattern.iteratorpattern;
 
 public class NameRepository implements Container {
-    public String names[] = {"Robert", "John", "Julie", "Lora"};
+    public String[] names = {"Robert", "John", "Julie", "Lora"};
 
     @Override
     public Iterator getIterator() {
@@ -14,10 +14,7 @@ public class NameRepository implements Container {
 
         @Override
         public boolean hasNext() {
-            if (index < names.length) {
-                return true;
-            }
-            return false;
+            return index < names.length;
         }
 
         @Override

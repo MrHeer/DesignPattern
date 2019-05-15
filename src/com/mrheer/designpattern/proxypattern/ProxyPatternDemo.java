@@ -7,7 +7,7 @@ public class ProxyPatternDemo {
 
         //图像将从磁盘加载
         image.display();
-        System.out.println("");
+        System.out.println();
         //图像将无法从磁盘加载
         image.display();
     }

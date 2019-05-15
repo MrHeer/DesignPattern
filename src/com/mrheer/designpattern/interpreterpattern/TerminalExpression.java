@@ -10,9 +10,6 @@ public class TerminalExpression implements Expression {
 
     @Override
     public boolean interpret(String context) {
-        if (context.contains(data)) {
-            return true;
-        }
-        return false;
+        return context.contains(data);
     }
 }

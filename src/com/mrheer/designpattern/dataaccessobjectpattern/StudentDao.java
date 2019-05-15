@@ -3,11 +3,11 @@ package com.mrheer.designpattern.dataaccessobjectpattern;
 import java.util.List;
 
 public interface StudentDao {
-    public List<Student> getAllStudents();
+    List<Student> getAllStudents();
 
-    public Student getStudent(int rollNo);
+    Student getStudent(int rollNo);
 
-    public void updateStudent(Student student);
+    void updateStudent(Student student);
 
-    public void deleteStudent(Student student);
+    void deleteStudent(Student student);
 }
